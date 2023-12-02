@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Freinds Book</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #img{
+                align-content: center;
+            }
+            body{
+                align-items: center;
+                align-content: center;
+                
+            }
+            </style>
+    </head>
+    <body>
+        <div></div>
+        <img src="https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg" id="nightimg" alt="Night light image">
+        <h1 id="TitleName">FRIENDS BOOK</h1>
+        <form>
+            <label id="yourName">Your Name:</label>
+        </form>
+        <input type="text" id="textBox"><br>
+        <label type="text" id="field1">1. A message for me!</label><br>
+        <input type="text" id="textBox1"><br>
+        <label type="text" id="field2">2. A nick name for me?</label><br>
+        <input type="text" id="textBox2"><br>
+        <label type="text" id="field3">3. Have you ever lied to me?</label> <br>
+        <input type="radio" id="yesMaybe">Yes
+        <input type="radio" id="yesMaybe">Maybe<br>
+        <label type="text" id="field4">4. How do you feel when you talk to me?</label><br>
+        <input type="radio" id="hi">Happy
+        <input type="radio" id="hi">Irritated<br>
+        <label type="text" id="field5" >5. Do you like to go on a roadtrip with me?</label><br>
+        <input type="radio" id="yes">Yes
+        <input type="radio" id="yes">No<br>
+        <label type="text" id="field6">6. Best colour that suits me?</label><br>
+        <input type="checkbox" id="bestColour">Red
+        <input type="checkbox" id="bestColour">Black
+        <input type="checkbox" id="bestColour">White
+        <input type="checkbox" id="bestColour">Blue
+        <input type="checkbox" id="bestColour">Green<br>
+        <label type="text" id="field7">7. The best moment in our Friendship?</label><br>
+        <input type="text" id="textBox3">
+        
+    </body>
+</html>
+
+
+
+
+#yourName{
+    color:black;
+    text-align: center;
+    font-display: flex;
+
+}
+body{
+    text-align:center
+}
+#textBox{
+    background-color: aqua;
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+
+}
+#TitleName{
+    color:cyan;
+    font-weight: bold;
+}

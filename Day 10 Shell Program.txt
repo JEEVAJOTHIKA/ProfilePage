@@ -1,0 +1,50 @@
+Day 10 Shell Program
+
+1)
+echo "Hello World"
+
+2)
+read name
+echo "Hi $name"
+
+
+
+3)
+read num
+if [ `expr $num % 2` == 0  ]
+then
+    echo "$num is even"
+else
+    echo "$num is odd"
+fi
+
+
+
+4)
+
+read n
+t=""
+while [[ $n > 0 ]]
+do
+   rem=$(( n % 10))
+   t="$t$rem"
+   n=$(( n / 10))
+
+done
+echo $t
+
+
+5)
+
+
+read mainstr
+  len=${#mainstr}
+read substr
+prefix=${mainstr%%$substr*}
+index=${#prefix}
+if [[ $index == $len ]]
+then 
+   echo 0
+else
+   echo $((index+1))
+fi
